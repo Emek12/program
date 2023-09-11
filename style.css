@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.contact-container{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(56, 54, 54);
+    position: relative;
+    
+}
+
+
+.contact1{
+width: 50%;
+height: 33%;
+position: absolute;
+top: 0%;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 20px;
+border: 1px solid aqua;
+color: white;
+
+}
+
+.line1{
+    width: 80%;
+    height: 1px;
+    background-color: aqua;
+}
+
+.line-decoration1{
+    width: 50%;
+    height: 33%;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    
+    
+}
+
+.linediv1{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid aqua;
+    border-right: 1px solid aqua;
+}
+
+.contact2{
+    width: 50%;
+height: 33%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: absolute;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+border-radius: 20px;
+border: 1px solid aqua;
+color: white;
+
+
+}
+
+
+.contact3{
+width: 50%;
+height: 33%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: absolute;
+bottom: 0%;
+left: 0;
+border-radius: 20px;
+border: 1px solid aqua;
+color: white;
+}
+
+
+.line-decoration2{
+    width: 50%;
+    height: 33%;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    
+    
+}
+
+.linediv2{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+}
+
+
+
+@media screen and (min-width: 340px) and (max-width: 600px){
+
+    .contact1 h1{
+
+    }
+
+    .contact1 p{
+        
+    }
+
+}
